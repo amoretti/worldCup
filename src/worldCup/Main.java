@@ -40,6 +40,7 @@ public class Main {
 				// use FileWriter to write file
 				boolean tem = false;
 				String texto = "";
+				String textoFora = "";
 				while ((inputLine = br.readLine()) != null) {
 					System.out.println(i++ + inputLine);
 					String[] textList = inputLine.split("PRPProductId");
@@ -61,7 +62,7 @@ public class Main {
 						} else {
 							if (text.contains("IMT")) {
 								if (!text.contains("-1") && !text.contains("0")) {
-									texto += "JOGO: "
+									textoFora += "JOGO: "
 											+ text.split("IMT")[1].substring(0,
 													2)
 											+ " INGRESSO: "

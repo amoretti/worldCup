@@ -1,0 +1,2 @@
+- Só colocar seu login e senha no arquivo EmailHelper.java username/password e colocar o email para enviar e receber (o seu no caso)
+- Você vai precisar do mail.jar para o envio do e-mail.
